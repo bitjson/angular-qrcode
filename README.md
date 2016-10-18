@@ -1,3 +1,7 @@
+This repo is a fork of [monospaced/angular-qrcode](https://github.com/monospaced/angular-qrcode) which supports colorization of the QR code.
+
+Note: color changes often negatively effect QR code scannability – it's typically a bad idea to use a none-white `background`, or a foreground `color` which varies significantly from black.
+
 Angular QR Code
 ===============
 
