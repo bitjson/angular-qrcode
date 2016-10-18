@@ -25,7 +25,7 @@ as element
 
 with QR options
 
-    <qrcode version="2" error-correction-level="M" size="200" data="string"></qrcode>
+    <qrcode version="2" error-correction-level="M" size="200" data="string" color="#222" background="#f7f7f7"></qrcode>
 
 as a downloadable image
 
@@ -55,6 +55,10 @@ Permitted values
 * download: boolean
 
 * href: URL
+
+* color: hexadecimal color (default: `#000`)
+
+* background: hexadecimal color (default: `#FFF`)
 
 The amount of data (measured in bits) must be within capacity according to the selected version and error correction level, see http://www.qrcode.com/en/about/version.html.
 
